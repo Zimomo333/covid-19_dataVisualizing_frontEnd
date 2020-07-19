@@ -1,8 +1,16 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import ElementUI from 'element-ui';
+import axios from 'axios'
+import 'element-ui/lib/theme-chalk/index.css';
+import App from './App.vue';
+import echarts from 'echarts';
+import 'echarts/extension/bmap/bmap'
 
-Vue.config.productionTip = false
+Vue.use(ElementUI);
+Vue.prototype.$axios = axios;
+Vue.prototype.$echarts = echarts;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  el: '#app',
+  render: h => h(App)
+});
