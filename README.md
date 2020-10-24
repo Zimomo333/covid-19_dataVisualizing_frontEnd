@@ -1,24 +1,17 @@
-# covid-vue
+## covid-19 疫情数据可视化
 
-## Project setup
-```
-npm install
-```
+### 技术栈
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+1. Vue
+2. Element-UI 组件
+3. Echarts + 百度地图
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Demo展示
+
+<img src="https://raw.githubusercontent.com/Zimomo333/covid-19_dataVisualizing_frontEnd/master/picture/index.png" />
+
+查询功能
+
+<img src="https://raw.githubusercontent.com/Zimomo333/covid-19_dataVisualizing_frontEnd/master/picture/search.png" />
